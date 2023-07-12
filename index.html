@@ -1,21 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nadvar1</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-        <img src="img/img.png1.png" alt="">
-        <ul class="nav" >
-            <li class="nav__link"><a href="#">Inicio</a></li>
-            <li class="nav__link"><a href="#">Productos</a></li>
-            <li class="nav__link"><a href="#">Contactos</a></li>
-            <li class="nav__link"><a href="#">Sobre Nosotros</a></li>
-        </ul>
-    </nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
     
-</body>
+</header>
+<body>
+    <header>
+        
+        <img src="img/logo.png.png" alt="logoprincipal" class="logo">
+        
+     <nav class="navbar">
+
+        <label for="menu-toggle" class="menu-label" >
+            <img src="./img/menu2.png.png" alt="menu-toggle">
+        </label>
+        <input type="checkbox" id="menu-toggle" >
+
+        <ul class="navbar-list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contactos</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+        </ul>
+     </nav>
+    </header>  
+    <main>
+        <!-- hero -->
+        <section class="hero" >
+            <div class="hero-info">
+            <h1>
+                REPUESTOS DE MOTOPARTES
+            </h1>
+            <P>
+                Somos <span>TERCOM</span> líderes del mercado mayorista de motopartes con 26 años de presencia.
+                 Nos especializamos en la comercialización de repuestos y accesorios nacionales e importados de origen chino, Japonés, Brasilero y Tailandes. 
+            </P>
+            <a href="#">CATALOGO 2023</a>
+         </div>
+            <div class="hero-card" >
+            <img src="img/imagenfondo1.jpg.png" alt="" class="hero-card"></div>
+        </section>  
+    </main>
+  
+  
+        <section id="info" >
+            <h2>Tenemos Las Mejores Marcas Del Mercado</h2>
+            
+            <div class="info-card-container" >
+            
+                <!-- card 1 -->
+                <div class="info-card" >
+                 <a href=""><img src="img/CARD1.png" alt="" ></a>
+                  <h3>Encontra Todo Para Tu Moto</h3>
+                  <P>accesorios , trajes de lluvia , cascos , guantes.</P>
+                </div>
+                
+
+              <!-- CARD 2 -->
+              
+              <div class="info-card" >
+               <a href=""><img src="img/card2.png" alt="" ></a>
+                <h3>Respuestos de Alta Calidad</h3>
+                <P>Bujias , Aros , Espejos , Engranajes y mas</P>
+              </div>
+            
+              <!-- CARD 3 -->
+              <div class="info-card" >
+                <a href=""><img src="img/card3.png" alt="" ></a>
+                <h3>Variedad de Marcas para Tu Moto</h3>
+                <P>Cadenas , Herramientas , Baterias</P>
+              </div>
+            </div>
+             <br>
+        </section>
+
+        <!-- descubre -->
+        <section id="discover" >
+            <img src="img/suzuki.jpg" alt="">
+            
+            <!-- info -->
+          <div class="contenedor" > 
+            <h2>Productos Importados de China Y India</h2>
+            <p>Contamos con presencia en todo el territorio argentino gracias a nuestra importante red de comercialización distribuida en todo el país, nuestro customer service localizado en Buenos Aires y nuestra plataforma E-commerce.
+
+                Sabemos que para seguir brindando valor a nuestros clientes debemos continuar fortaleciendo el vínculo que nos une y nos permite entender sus necesidades, compartir conocimientos y apoyarlos en sus iniciativas. Consideramos que ésta es la única forma de ofrecerles un servicio que les permita tanto a ellos como a nosotros un crecimiento sostenido y continuo</p>
+                    <a href="#">Sobre Nosotros</a>
+            </div>
+        </section>
+        
+ </body>
+
+ <footer class="footer">
+    <div class="container" >
+        <div class="footer-row" >
+            <div class="footer-links" >
+
+                <h3>EMPRESA</h3>
+                <ul>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Quiere ser distribuidor</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-links" >
+
+                <h3>USUARIOS</h3>
+                <ul>
+                    <li><a href="#">Acceso clientes</a></li>
+                    <li><a href="#">Novedades</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-links" >
+
+                <h3>CONTACTANOS</h3>
+                <ul>
+                    <li><a href="#">Escribinos</a></li>
+                    <li><a href="#">Email: ventas@tercom.com.ar</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-links" >
+            <h3>SIGUENOS</h3>
+            <div class="social-links" >
+                <a href="#"><i class="fab fa-facebook-f" ></i></a>
+                <a href="#"><i class="fab fa-instagram" ></i></a>
+                <a href="#"><i class="fab fa-whatsapp" ></i></a>
+            </div>
+            </div>
+        </div>
+    </div>
+ </footer>
+
 </html>
