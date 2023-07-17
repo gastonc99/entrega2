@@ -35,10 +35,12 @@
    .menu-label img{
     height: 30px;
     width: 40px;
+    
    }
 
    #menu-toggle:checked + .navbar-list{
     display: flex;
+    align-items:center ;
    }
 
    .hero-info {
@@ -46,19 +48,23 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+    
    }
 
    .hero-info h1{
+    text-align:center;
     width: 90%;
     max-width: 500px;
 
    }
+
 
    .hero-card{
     display: none;
    }
 
    #info h2{
+    
     text-align: center;
    }
 
@@ -68,19 +74,28 @@
 
    #discover {
     text-align: center;
+    
    }
    #discover .contenedor{
     font-size: 2px;
+    
+
    }
    #discover h2{
-    font-weight: 400;
-    font-size: 40px;
+
+    text-align: center;
+    
+
    }
    #discover p{
-    padding: 4px 0;
+    text-align: center;
+    padding: 20px 10px;
    }
+
    #discover a{
     font-size: 15px;
+    background-color: brown;
+   
    }
 }
 
@@ -93,8 +108,12 @@
         justify-content: center;
         gap: 4px;
        }
+       .hero-info p{
+        text-align: center;
+       }
        .info-card{
-       
+        display: flex;
+       flex-direction: column;
         width: 140px;
        }
        .info-card a{
@@ -102,6 +121,7 @@
         /* position: center; */
         /* align-items: center; */
         padding: 1px 4px;
+
         
         
 
