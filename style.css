@@ -20,8 +20,8 @@ body{
 /*==================HEADER=================== */
 
 header{
-    
-    background-color: rgb(54, 54, 54);
+    background: linear-gradient(to bottom, rgb(167, 167, 167), rgb(0, 0, 0));
+    /* background-color: rgb(54, 54, 54); */
     display: flex;
     justify-content:space-between;
     align-items:center;
@@ -140,6 +140,7 @@ main{
     
 
 }
+
 
 
 .hero-info {
